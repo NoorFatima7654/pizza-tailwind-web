@@ -17,8 +17,10 @@ export default function Carousel() {
                 className="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow"
               >
                 <Image
-                  src="https://www.ezcater.com/lunchrush/wp-content/uploads/sites/2/2017/10/shutterstock_570541132.jpg.webp"
+                  src="/images/carpizza1.webp"
                   alt="pizza 1"
+                  width={150}
+                  height={150}
                   className="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
                 />
                 <div className="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
@@ -34,8 +36,10 @@ export default function Carousel() {
                 className="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 mb-4"
               >
                 <Image
-                  src="https://www.ezcater.com/lunchrush/wp-content/uploads/sites/2/2017/10/shutterstock_514457074.jpg.webp"
+                  src="/images/carpizza2.webp"
                   alt="pizza 2"
+                  width={150}
+                  height={150}
                   className="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
                 />
                 <div className="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
@@ -52,8 +56,10 @@ export default function Carousel() {
                   className="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40"
                 >
                   <Image
-                    src="https://www.ezcater.com/lunchrush/wp-content/uploads/sites/2/2017/10/shutterstock_184944413.jpg.webp"
+                    src="/images/carpizza3.webp"
                     alt="pizza 3"
+                    height={150}
+                    width={150}
                     className="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition transform duration-500 ease-in-out"
                   />
                   <div className="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5 "></div>
@@ -67,8 +73,10 @@ export default function Carousel() {
                   className="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40"
                 >
                   <Image
-                    src="https://www.ezcater.com/lunchrush/wp-content/uploads/sites/2/2017/10/shutterstock_313437680.jpg.webp"
+                    src="/images/carpizza4.webp"
                     alt="pizza 4"
+                    height={150}
+                    width={150}
                     className="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
                   />
                   <div className="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5 "></div>
@@ -86,8 +94,10 @@ export default function Carousel() {
                 
               >
 
-<Image src="https://www.ezcater.com/lunchrush/wp-content/uploads/sites/2/2017/10/shutterstock_244706695.jpg.webp" 
+<Image src="/images/carpizza5.webp" 
 alt="pizza 5"
+height={150}
+width={150}
                 className="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition transform duration-500 ease-in-out" />
                 <div className="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5 "></div>
                 <h3 className="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-0xl">

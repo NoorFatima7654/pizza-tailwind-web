@@ -17,18 +17,26 @@ export default function Footer() {
       <div className='flex justify-center space-x-5 transition-transform duration-500 rase-in-out transform haver:scale-105'>
        
         <a href='https://facebook.com' target='blank' rel='nofollow noonpener'>
-        <Image src="https://img.icons8.com/fluent/30/000000/facebook-new.png"  alt="facebook logo"/>
+        <Image src="/images/fblogo.png"  alt="facebook logo"
+        height={50}
+        width={50}/>
         </a>
         <a href='https://linkedin.com' target='blank' rel='nofollow noonpener'>
-        <Image src="https://img.icons8.com/fluent/30/000000/linkedin-2.png" alt="linkedin logo"/>
+        <Image src="/images/linklogo.png" alt="linkedin logo"
+        height={50}
+        width={50}/>
         </a>
 
         <a href='https://instagram.com' target='blank' rel='nofollow noonpener'>
-        <Image src="https://img.icons8.com/fluent/30/000000/instagram-new.png" alt="instagram logo"/>
+        <Image src="/images/instalogo.png" alt="instagram logo"
+        height={50}
+        width={50}/>
         </a>
        
         <a href='https://twitter.com' target='blank' rel='nofollow noonpener'>
-        <Image src="https://img.icons8.com/fluent/30/000000/twitter.png" alt="twitter logo"/>
+        <Image src="/images/twitlogo.png" alt="twitter logo"
+        height={50}
+        width={50}/>
         </a>
     
         </div>

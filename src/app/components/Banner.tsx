@@ -7,8 +7,10 @@ export default function Banner() {
    
       <div className="absolute inset-0 opacity-20">
         <Image
-          src="https://www.shutterstock.com/image-vector/pepperoni-pizza-banner-ads-on-260nw-1505158397.jpg"
+          src="/images/banner.webp"
           alt="delicious pizza banner"
+          height={300}
+          width={300}
           className=" w-full h-full object-cover"
         />
       </div>

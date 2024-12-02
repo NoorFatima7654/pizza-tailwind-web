@@ -4,19 +4,19 @@ import Image from "next/image";
 
 const productCardGrid = () => {
   const productImages = [
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFsc8Rlhn_ZrCdW9lD66aKjjKBC_Eko8ZdRQ&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjLOcb97AFCLXS9n5PhVWuLjp596cUzF505Q&s",
-    " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUpAwL5IE5p1pxMFjJGnj-C3rjFvezw96SlCJU11aFNBxQ7p5sCed074I&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFb-QOETAw_2smnhPtCqsh8A1KTeBnpYEBTQ&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3Aqy7kjjQbxmABSduzIg3uyh_TOOS0_GPGA&s",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE9S8G-FFE2i6Z3CEfxjOoa9jlrL3X5Ex3yA&s",
+    "/images/product1.jpg",
+    "/images/product2.jpg",
+    "/images/product3.jpg",
+    "/images/product4.jpg",
+    "/images/product5.jpg",
+    "/images/product6.jpg",
   ];
   return (
     <div className="relative text-center p-10 bg-black">
       <div
         className="absolute inset-0"
         style={{
-          backgroundImage: `url(' https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1O2F91QpeCoibFkxWj3XSzLO8ZUaBPR_hgcvb1bFysywAS5iAd_puFRY&s')`,
+          backgroundImage: `url('/images/menuitems.jpeg')`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           zIndex: 0,
@@ -41,6 +41,8 @@ const productCardGrid = () => {
               <Image
                 src={productImages[index]}
                 alt={`product ${index + 1}`}
+                height={400}
+                width={400}
                 className="h-80 w-75 object-cover rounded-t-xl"
               />
               <div className="p-4 py-3 w-72">

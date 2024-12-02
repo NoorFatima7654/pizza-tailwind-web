@@ -79,6 +79,8 @@ export default function ProductList() {
               className="relatiive w-50"
               src={product.imageUrl}
               alt={product.title}
+              height={200}
+              width={200}
             />
           </div>
           <div className="relative text-white px-6 pb-6 mt-6">

@@ -23,10 +23,10 @@ export default function Header() {
                   <FaSearch className="w-5 h-5 text-blue-300 absolute right-3 top-1/2 transform -translate-y-1/2 hidden lg:block md:block" />
                 </div>
                 <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400 flex flex-wrap items-center text-base justify-center space-x-6">
-          <a className="mr-5 text-white font-semibold hover:text-indigo-300 transition-all duration-300 ease-in-out transform hover:scale-110" href='http://localhost:3000'>Home</a>
-      <a className="mr-5 text-white font-semibold hover:text-indigo-300 transition-all duration-300 ease-in-out transform hover:scale-110" href='http://localhost:3000/reservation' >Reservation</a>
-      <a className="mr-5 text-white font-semibold hover:text-indigo-300 transition-all duration-300 ease-in-out transform hovescale-110r:" href='http://localhost:3000/menu'>Menu</a>
-      <a className="mr-5 text-white font-semibold hover:text-indigo-300 transition-all duration-300 ease-in-out transform hover:scale-110" href=' http://localhost:3000/offers'>Offers</a>
+          <a className="mr-5 text-white font-semibold hover:text-indigo-300 transition-all duration-300 ease-in-out transform hover:scale-110" href='/'>Home</a>
+      <a className="mr-5 text-white font-semibold hover:text-indigo-300 transition-all duration-300 ease-in-out transform hover:scale-110" href='/reservation' >Reservation</a>
+      <a className="mr-5 text-white font-semibold hover:text-indigo-300 transition-all duration-300 ease-in-out transform hovescale-110r:" href='/menu'>Menu</a>
+      <a className="mr-5 text-white font-semibold hover:text-indigo-300 transition-all duration-300 ease-in-out transform hover:scale-110" href=' /offers'>Offers</a>
 
              
           </nav>
@@ -42,8 +42,11 @@ export default function Header() {
               <FaCartShopping className=" w-8 h-8 rounded-full ring-2 p-1 relative text-cyan-400 hover:text-amber-400" />
             <Image
             className="inline-block w-8 h-8 rounded-full ring-2 ring-sky-400 hover:selection:text-amber-400"
-            src="https://cdn.pixabay.com/photo/2023/01/24/13/23/viet-nam-7741017_1280.jpg"
-            alt="user avtar"/>
+            src="/images/noor.jpeg"
+            alt="user avtar"
+            width={50}
+            height={50}/>
+            
             </div>
             </div>
           </div>
